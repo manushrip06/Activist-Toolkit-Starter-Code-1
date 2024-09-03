@@ -1,0 +1,361 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #bad6db; 
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color:white ;
+  text-align:center;
+  font-size:6em;
+  margin-top:30vh;
+   
+ 
+  font-family: "Anek Latin", sans-serif;
+}
+
+
+.centered{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+   margin:0;
+  
+}
+
+body{
+overflow-x:hidden;
+}
+
+.introduction{
+  
+display:flex;
+  background-color:#cccd5
+  margin:0;
+  padding:7em;
+  flex-direction:row;
+  flex-wrap:non-wrap;
+
+  
+  
+ 
+}
+
+.intro{
+  text-align:center;
+  
+  
+  
+}
+
+button:hover{
+background-color:#77bfa3; 
+}
+
+
+.intro1{
+   margin:0;
+flex-basis:100%;
+  margin:1%;
+  font-size:50px;
+}
+.intro2{
+  background-color:#4e80a1;
+   margin:0;
+font-size:80px;
+  flex-basis:100%;
+  margin:1%;
+  
+}
+
+.intro3{
+    color:#021524;
+  font-size:80px;
+  text-align:center;
+  border-style:none;
+  padding-top:10px;
+  padding-bottom:10px;
+  color:#021524;
+  
+  
+
+   
+
+  
+}
+
+.intro4{
+    font-size:50px;
+  background-color:#01a9c1
+
+
+
+
+
+
+  
+  
+}
+
+.intro10{
+margin-right:400px;
+font-size:30px;
+ 
+
+}
+
+#output{
+  margin-top:10px;
+padding:2em;
+background-color: #98dab4
+
+
+}
+
+h2{
+  background-color:#00000;
+}
+
+
+@media screen and (max-width:850px){
+.introduction{
+flex-wrap:wrap;
+}
+}
+
+@media screen and (max-width:850px){
+.question1{
+flex-wrap:wrap;
+}
+}
+
+@media screen and (max-width:850px){
+.question2{
+flex-wrap:wrap;
+}
+}
+
+@media screen and (max-width:850px){
+.question3{
+flex-wrap:wrap;
+}
+}
+
+
+@media screen and (max-width:850px){
+.donate4{
+flex-wrap:wrap;
+}
+}
+.center{
+position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+   margin:0;
+}
+
+
+.intropic{
+height:1000px;
+width:1500px;
+}
+
+
+.question1{
+ 
+display:flex;
+  background-color:#879ec4;
+  margin:0;
+  flex-direction:row;
+  flex-wrap:non-wrap;
+}
+
+
+
+.q1{
+ 
+flex-basis:100%;
+  margin:1%;
+  font-size:70px;
+  margin-left:20px;
+
+}
+
+.q2{
+
+font-size:50px;
+flex-basis:100%;
+  margin:1%;
+ margin-left:20px;
+  
+}
+
+.question2{
+display:flex;
+   background-color:#acacbc;
+ margin:0;
+  flex-direction:row;
+  flex-wrap:non-wrap;
+ 
+
+}  
+
+.q3{
+color:#white; 
+flex-basis:100%;
+  margin:1%;
+  font-size:70px;
+  margin-left:20px;
+  
+}
+
+.q4{
+font-size:50px;
+flex-basis:100%;
+  margin:1%;
+    margin-left:70px;
+
+}
+
+.question3{
+display:flex;
+  background-color: #6c94b9;
+margin:0;
+  flex-direction:row;
+  flex-wrap:non-wrap;
+  
+}
+
+.q5{
+flex-basis:100%;
+  margin:1%;
+  font-size:85px;
+   margin-left:50px;
+}
+
+.q6{
+font-size:50px;
+  flex-basis:100%;
+  margin:1%;
+  margin-left:120px;
+
+  
+
+}
+
+.headings{
+background-color:#014f86;
+  color:white;
+  margin-top:0vh;
+  font-size:60px;
+}
+
+.donate4{
+display:flex;
+margin:0;
+flex-direction:row;
+flex-wrap:non-wrap;
+}
+.donate5{
+font-size:45px;
+  margin-top:1vh;
+background-color:#57b8bc;
+margin-right:1vh;
+  color:black;
+  margin-left:1vh;
+  
+}
+
+.donate6{
+margin-top:1vh;
+}
+
+
+.donate7{
+display:flex;
+margin:0;
+flex-direction:row;
+flex-wrap:non-wrap;
+}
+
+.donate8{
+font-size:45px;
+  margin-top:3vh;
+  margin-bottom:3vh;
+background-color:#57b8bc;
+margin-right:3vh;
+  color:black;
+  margin-left:3vh;
+}
+
+/* STYLE IMAGES */
+
+/* STYLE NAV BAR */
+
+
+ul{
+  padding: 2em;
+  list-style-type: none;
+  background-color:#003851;
+  overflow:hidden;
+text-align:center;
+  font-family: "Anek Latin", sans-serif;
+  
+}
+
+li{
+  display: inline;
+
+  
+  
+}
+li a{
+  text-decoration:none;
+  color:white;
+  font-size:2em;
+ padding:1em;
+  
+  
+ 
+}
+li a:hover {
+  background-color: #028090;
+
+
+}
+
+
+
+
+/* STYLE BUTTONS */
+
+
+button { 
+  color:white;
+  margin:5px;
+  background-color:#015768;
+  border-radius: 10px;
+  padding:2em;
+  font-size:20px;
+  width:50%;
+  border-style:none;
+  padding-top:10px;
+  padding-bottom:10px;
+  
+ 
+
+
+
+ 
+ 
+}
+
+/* ADD MORE! */
